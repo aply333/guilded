@@ -1,11 +1,11 @@
 html{
     background-color: #32373B;
 }
-body{
+.mainContainer{
     margin: 15% auto;
     display: flex;
     justify-content: center;
-    gap: 20%;
+    gap: 10rem;
 }
 .login{
     background-color: #4A5859;
@@ -71,6 +71,7 @@ input{
     color: #F4B860;
     margin-bottom: .125rem;
     padding: 0;
+    text-align: center;
 }
 .subtext{
     font-family:'Overpass', sans-serif;
@@ -78,4 +79,5 @@ input{
     font-size: 2rem;
     margin-top: 0;
     padding: 0;
+    text-align: center;
 }

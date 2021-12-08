@@ -1,14 +1,14 @@
 import React from "react"
 import BannerText from "./bannerText";
-import LoginForm from "./loginForm";
+import FormContianer from "./formContainer";
 import "./styles.css";
 
 function Login() {
   return (
-    <body>
-      <LoginForm/>
+    <div className="mainContainer">
+      <FormContianer/>
       <BannerText/>
-    </body>
+    </div>
   );
   }
 

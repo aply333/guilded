@@ -1,0 +1,17 @@
+.topBarContainer{
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+    padding: .5rem;
+    background-color: #4A5859;
+    border-radius: 8px;
+}
+.logo{
+    font-family:'Bebas Neue', cursive ;
+    color: #F4B860;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,7 @@
+.feedContainer{
+    width: 60%;
+    min-height: 30rem;
+    margin: 3rem auto;
+    border: 3px solid #4A5859;
+    border-radius: 8px;
+}

@@ -6,7 +6,7 @@ module.exports = tokenGenerate;
 function tokenGenerate(user){
     const payload = {
         subject: user.user_id,
-        username: user.username
+        username: user.name
     }
     const secret = tokenSecret.jwt_secret
     const options  ={

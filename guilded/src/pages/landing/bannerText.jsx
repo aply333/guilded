@@ -1,3 +1,4 @@
+import React from "react"
 function BannerText() {
     return(
         <div className="bannerContainer">

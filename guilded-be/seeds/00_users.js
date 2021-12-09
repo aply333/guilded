@@ -1,14 +1,14 @@
+const bcrypt = require('bcryptjs');
+const ataman = bcrypt.hashSync('isHash', 12)
 
 exports.seed = function(knex) {
-  // Deletes ALL existing entries
   return knex('USERS').truncate()
     .then(function () {
-      // Inserts seed entries
       return knex('USERS').insert([
         { tag: "ataman", 
           name: 'Andrei',
           email: 'test@test.com',
-          hash: 'isahash'
+          hash: ataman
         },
       ]);
     });

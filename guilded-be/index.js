@@ -11,10 +11,13 @@ function logger(req, res, next) {
     next()
 }
 
-server.use("/users", userRoutes)
 
 server.use(logger)
+server.use(bodyParser.urlencoded({extended: false}))
 server.use(bodyParser.json())
+
+server.use("/users", userRoutes)
+
 server.get("/", (req, res) => {
     res.status(200).json({location: "root"})
 })

@@ -2,63 +2,40 @@ html{
     background-color: #32373B;
 }
 .mainContainer{
-    margin: 15% auto;
-    display: flex;
-    justify-content: center;
-    gap: 10rem;
-}
-.login{
-    background-color: #4A5859;
-    width: 30rem;
-    height: 30rem;
+    margin: 10% auto;
     display: flex;
     flex-direction: column;
-    border-radius: 8px;
     justify-content: center;
-    align-items: center;
-    position: relative;
 }
-.formDecoration{
-    width: 90%;
-}
-.signupBtn{
-    position: absolute;
+
+.enterBtn{
     width: 7rem;
     height: 3rem;
     background-color: #F4B860;
-    top: 1rem;
-    right: -2rem;
     border:none;
     border-radius: 8px;
+    margin: 0 auto;
     font-family:'Bebas Neue', cursive ;
     font-size: 2rem;
     color: white;
     transition: all ease .2s;
 }
-.signupBtn:hover{
+.enterBtn:hover{
     background-color: #EF9A1A;
 }
-input{
-    height: 2rem;
-    width: 80%;
-    margin-bottom: .5rem;
-    border-radius: 8px;
-    font-family: 'Overpass', sans-serif;
-    text-align: center;
-    font-size: 1.5rem;
-}
-.loginBtn{
-    height: 2.5rem;
-    width: 6rem;
+.exitBtn{
+    width: 7rem;
+    height: 3rem;
+    background-color: #F4B860;
     border:none;
     border-radius: 8px;
-    font-family: 'Overpass', sans-serif;
-    font-size: 1.25rem;
-    background-color: #C83E4D;
+    margin: 0 auto;
+    font-family:'Bebas Neue', cursive ;
+    font-size: 2rem;
     color: white;
     transition: all ease .2s;
 }
-.loginBtn:hover{
+.exitBtn:hover{
     background-color: red;
 }
 .bannerContainer{

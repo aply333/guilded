@@ -1,6 +1,6 @@
 import React from "react";
 import useRoutePrivacy from "../../components/auth/useRoutePrivacy";
-import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function Dashboard() {
   // useRoutePrivacy()
@@ -20,4 +20,4 @@ function Dashboard() {
   );
 }
 
-export default withAuthenticationRequired(Dashboard);
+export default Dashboard;
